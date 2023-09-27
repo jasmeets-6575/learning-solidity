@@ -6,7 +6,7 @@ contract Main
     string name;
     uint age;
 
-    constructor() public 
+    constructor() 
     {
         name="Ravi";
         age=17;
