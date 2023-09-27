@@ -35,6 +35,13 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -65,11 +72,11 @@
 	},
 	"sources": {
 		"by-code-eater/solidity/identity.sol": {
-			"keccak256": "0x2ec33b0d876948ade01869d993d171e07e4d2ae44d81e1413bb0f07dabe6ed95",
+			"keccak256": "0x8c138c9528eb5cc6c38f76e587461c1967b050e74d075ef4cfc7c150ba79b412",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2434c64a60c23cc8b572a75cd956ee3101b7532f21b59cc576975a525f59c7be",
-				"dweb:/ipfs/QmVJBENsESNTfEuwYhWd5FuGvEd1CrjyFLR6bsnRQPScGd"
+				"bzz-raw://ad19cc550d91c75d34a43e560aadd79437d3c4fbff65ae7c7b53d7dcd69afca7",
+				"dweb:/ipfs/QmXJTyrXvDenpXSa8QcrX9SV6bUhnFVJ9mQpRvfjT4Mkti"
 			]
 		}
 	},

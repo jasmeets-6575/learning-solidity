@@ -16,9 +16,13 @@ contract Main
     {
         return name;
     }
-    
+
     function getAge() view public returns(uint)
     {
         return age;
+    }
+    function setAge() public
+    {
+         age=age+1;
     }
 }
