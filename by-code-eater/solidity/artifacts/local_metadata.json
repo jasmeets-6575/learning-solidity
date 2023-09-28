@@ -6,8 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "new_count",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "age",
+				"name": "count",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -16,19 +27,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getter",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/05-pureVsView.sol": "local"
+			"by-code-eater/solidity/06-constructor.sol": "local"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/05-pureVsView.sol": {
-			"keccak256": "0xb24d888163bcdbe6bbabdd409620b09ac04e31f469d0de020ca4ebf2b9d61029",
+		"by-code-eater/solidity/06-constructor.sol": {
+			"keccak256": "0x9629d42d1f0506d58ec2f2d5b658195fead1efbc44dcf494e5122b18cc4a5287",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7aa6196beb8d4a741c80a3ae23574c8c109073de228593d175596b05863014e3",
-				"dweb:/ipfs/QmaHmfWJEiC2pS4ZpKUjhkiWSBn97TYcQGv7z5WsVFW44o"
+				"bzz-raw://90f2c1db8b5f2ee972e89e1e99015e163d2211308e3831bf947c71a5ccf5df0e",
+				"dweb:/ipfs/QmRmtwHZjd63fqFzaj6Ko3mqMqCc3bmAe6VooGgnrj2Yyt"
 			]
 		}
 	},
