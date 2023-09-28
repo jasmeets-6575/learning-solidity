@@ -4,32 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "new_count",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -43,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/06-constructor.sol": "local"
+			"by-code-eater/solidity/07-integars.sol": "local"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -57,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/06-constructor.sol": {
-			"keccak256": "0x9629d42d1f0506d58ec2f2d5b658195fead1efbc44dcf494e5122b18cc4a5287",
+		"by-code-eater/solidity/07-integars.sol": {
+			"keccak256": "0xb2d634204a7114938d05539d7cd7f91b60d2e323a99c6a680c3aaacd1b50e3b3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://90f2c1db8b5f2ee972e89e1e99015e163d2211308e3831bf947c71a5ccf5df0e",
-				"dweb:/ipfs/QmRmtwHZjd63fqFzaj6Ko3mqMqCc3bmAe6VooGgnrj2Yyt"
+				"bzz-raw://32458fb25025fa51ca621088378b411f946ce7c172cbba3b4c4f90da8021769b",
+				"dweb:/ipfs/QmUX3XN2caXQ35KmmrtLKRUSmWZSYpghgn5KTbKJ64rfVi"
 			]
 		}
 	},
