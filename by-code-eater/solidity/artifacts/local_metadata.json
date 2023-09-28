@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getter",
+				"name": "age",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,7 +19,13 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newAge",
+						"type": "uint256"
+					}
+				],
 				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -54,11 +60,11 @@
 	},
 	"sources": {
 		"by-code-eater/solidity/04-functions.sol": {
-			"keccak256": "0xcda908e5b7fdf041a9d59882aada45623cee4d6839064dac981b84596e9d9182",
+			"keccak256": "0xe3bba3a0a93ac49616071281dc67e2fc9cc3be9404cf515295866421c40e3c2c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ab2c8d2fba114de3bf7d36f59d272374423a5443fde49264603906afaa4e656e",
-				"dweb:/ipfs/QmVdpUniXtsaVxPhFeCuRD8BUTtVS8R4Ks73eWkE26NT99"
+				"bzz-raw://692e01729a10dfd3a20225a832ab407059679e5089d43a64b81dddbbc37e8eba",
+				"dweb:/ipfs/QmT4YnPwMXuuad2duWihyp4U7y3cfEmqM5md4CNySE6Dwt"
 			]
 		}
 	},

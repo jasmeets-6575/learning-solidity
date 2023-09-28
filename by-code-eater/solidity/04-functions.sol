@@ -3,15 +3,18 @@ pragma solidity ^0.8.0;
 
 contract local
 {
-    uint age=10;
+    // uint age=10;
 
-    function getter() public view returns(uint)
-    {
-        return age;
-    }
+    // function getter() public view returns(uint)
+    // {
+    //     return age;
+    // }
 
-    function setter() public
+    uint public age=10;
+    // public keywords to state variable creates default getter function automatically
+
+    function setter(uint newAge) public
     {
-        age=age+5;
+        age=newAge;
     }
 }
