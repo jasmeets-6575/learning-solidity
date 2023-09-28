@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"by-code-eater/solidity/02-stateVariable.sol": "State"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"by-code-eater/solidity/02-stateVariable.sol": {
+			"keccak256": "0x8f1c65ad2fd0ef689279a7eebf76f388d5c25f9a2edf60780de39b64604987c6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://556010fd4992cb67dc2266f24df527835b59cba91cd4a07018a5397929179da5",
+				"dweb:/ipfs/QmSGxXiMHFd4QwMEEqPsKrrBaeEgyPG4weSE7kqLVotxof"
+			]
+		}
+	},
+	"version": 1
+}
