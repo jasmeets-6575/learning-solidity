@@ -8,20 +8,33 @@
 			{
 				"inputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "a",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"name": "check",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -38,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/14-ifElseLoop.sol": "Array"
+			"by-code-eater/solidity/15-booleans.sol": "Array"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -52,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/14-ifElseLoop.sol": {
-			"keccak256": "0xf77a33cb1b24f02dba4e286290b30776b41432f0cd4a4851e2f3d1caec5f0ee6",
+		"by-code-eater/solidity/15-booleans.sol": {
+			"keccak256": "0x19551015ed027c8e3795bfeaf60c2d1493f802a7762f4a31e0aea13a648c4a20",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fcc6e82debb0013243f6a55d3ae6791fb8bde3f5400e02494cf673a13fda33c7",
-				"dweb:/ipfs/QmVUjuBzcGYNd8g79dvDahtBkTPS5t1zGBieDpHL4FkZtP"
+				"bzz-raw://b1e00042194991a687ffb5d1a1e40cadec5976007cfbfa4a0a6556731363fd21",
+				"dweb:/ipfs/QmeWmDL615sVM9WL8NmUprimZHNc29xfLfzpzZP3oBSUmc"
 			]
 		}
 	},
