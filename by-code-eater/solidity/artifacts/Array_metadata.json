@@ -6,40 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "b1",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "i",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "getElement",
-				"outputs": [
-					{
-						"internalType": "bytes1",
-						"name": "",
-						"type": "bytes1"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getLength",
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -52,7 +26,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "pushElement",
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loop",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/12-arraysBytes.sol": "Array"
+			"by-code-eater/solidity/13-doWhileLoop.sol": "Array"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -85,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/12-arraysBytes.sol": {
-			"keccak256": "0xbb443ce0e941460cd997036f16cc3ce3f520e20acca2d28dec132ea79c2dbb3c",
+		"by-code-eater/solidity/13-doWhileLoop.sol": {
+			"keccak256": "0x9ed90b0593543216bc0a0c4d367559e801173779e0e94b96122d9d86d7d3e84e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://161f8ea5a1ccd09abda4cfd13b8b13ec9931aa0aafd0b3874be4750c8cc06d9e",
-				"dweb:/ipfs/QmZQvPjyayjQvQTNVoCAiSJjVRU4jaqEEcHUvoo2JYZFkA"
+				"bzz-raw://926473f6c1b119cfe8fde298f875d6acf022dbec2b58c7a62883b28d7023c1a3",
+				"dweb:/ipfs/Qmf6ogJfXbG6xannLaNdaqnnYZXKKD6nVq57MVAM5Q6R4x"
 			]
 		}
 	},
