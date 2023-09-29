@@ -13,12 +13,17 @@
 						"type": "uint256"
 					}
 				],
-				"name": "roll_no",
+				"name": "data",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "name",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -28,13 +33,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "keys",
+						"name": "_roll",
 						"type": "uint256"
 					},
 					{
 						"internalType": "string",
-						"name": "value",
+						"name": "_name",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_class",
+						"type": "uint256"
 					}
 				],
 				"name": "setter",
@@ -56,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/18-mapping.sol": "demo"
+			"by-code-eater/solidity/19-mappingStruct.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +80,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/18-mapping.sol": {
-			"keccak256": "0xb88541355de0de33b19a4e4729efca217faab72f5a0ef420f35df0b29b16ec0a",
+		"by-code-eater/solidity/19-mappingStruct.sol": {
+			"keccak256": "0x9076b763bf91eaae57acf9235d3213460dd6962e22d070150557bc5d7a8431fc",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e2c865b6251792477223ce0929f0851847f4191aad6b7e1fb6c1d5bd0d5b78b8",
-				"dweb:/ipfs/QmXrytzjpoYuyP8DxgQ61uZNMVRYKsAvXW6qZuF9nuSGPp"
+				"bzz-raw://fb16c74b8917e2ba49e78d5ab8a703a376dc62c8498765af87338715871e196d",
+				"dweb:/ipfs/QmXe9DkK4wfUv7dAC65LSjKZ41HgR29avaVESqb47mGbWw"
 			]
 		}
 	},
