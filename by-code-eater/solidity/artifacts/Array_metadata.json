@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
+				"inputs": [],
+				"name": "b2",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes2",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes2"
 					}
 				],
 				"stateMutability": "view",
@@ -26,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "len",
+				"name": "b3",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes3",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes3"
 					}
 				],
 				"stateMutability": "view",
@@ -39,20 +33,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "popElement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "b4",
+				"outputs": [
+					{
+						"internalType": "bytes2",
+						"name": "",
+						"type": "bytes2"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "item",
-						"type": "uint256"
-					}
-				],
-				"name": "pushElement",
+				"inputs": [],
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/10-arraysDynamic.sol": "Array"
+			"by-code-eater/solidity/11-arraysByte.sol": "Array"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -85,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/10-arraysDynamic.sol": {
-			"keccak256": "0x14f8a57ac8eb6f633d820d19052632c5842351ca2baa1a67cd7068bb73a1927a",
+		"by-code-eater/solidity/11-arraysByte.sol": {
+			"keccak256": "0x02c1bc2835d9bfb18cfb36b82af9ca2e71dd1f95eaedaed44a43980ecf2316a6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3811e8a9214064d4c2d813007662326e5712dad59eeae02a012e3f3f328dcb6e",
-				"dweb:/ipfs/QmQoXXn7ig5rxgL85qVP1qUGMsw4xckkjB43ooY2yuSUTe"
+				"bzz-raw://db24d04e87413f89c524eab65b5b5f9014187f5e1c6d65680f45d514a5d17f8d",
+				"dweb:/ipfs/QmcpuGj4tz7wBBzcB2KHnVSY6VAYh1aQSqQ5i8TMbLpDgJ"
 			]
 		}
 	},
