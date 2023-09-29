@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/07-integars.sol": "local"
+			"by-code-eater/solidity/09-arraysFixed.sol": "local"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/07-integars.sol": {
-			"keccak256": "0xb2d634204a7114938d05539d7cd7f91b60d2e323a99c6a680c3aaacd1b50e3b3",
+		"by-code-eater/solidity/09-arraysFixed.sol": {
+			"keccak256": "0x26c89df9055fa3a6391fd454189e2bdabc13ce1d663ba0533cb45c7668c0bf84",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://32458fb25025fa51ca621088378b411f946ce7c172cbba3b4c4f90da8021769b",
-				"dweb:/ipfs/QmUX3XN2caXQ35KmmrtLKRUSmWZSYpghgn5KTbKJ64rfVi"
+				"bzz-raw://00ff74cc7af79495b99713990cd48b416189bba3c24c8ddbcd714624cdeef878",
+				"dweb:/ipfs/QmYFHgTRoNFxncm1MHBVQYJ4JViWdzfZjmWysodJkAQ7CN"
 			]
 		}
 	},
