@@ -4,7 +4,48 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeowner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lottery",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u1",
+				"outputs": [
+					{
+						"internalType": "enum State.user",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/03-local-variable.sol": "State"
+			"by-code-eater/solidity/17-enum.sol": "State"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +73,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/03-local-variable.sol": {
-			"keccak256": "0x5beed589e7d6894bca307efb918c356f814650260f379a7661378c1b3761836a",
+		"by-code-eater/solidity/17-enum.sol": {
+			"keccak256": "0xd2033197507b77b134556fa2488005a5ef606027008fd468ef4bfbc1945c8de1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://50793649793e39ac9f5ad74c767c734c1f624eadb86fe0742bee83ff21c5fa0d",
-				"dweb:/ipfs/QmX83bFfk26HS27r3LcNJw24pwPn45FDymPRe89gD1eavW"
+				"bzz-raw://ed0e9ddc0250d3fa8e952ab109163a9a020dbde8428dc13351a2b321541a8989",
+				"dweb:/ipfs/QmcAGQ2PooT4wGpbyMAT3MmvCEbsogoYiam3aDMmLrJMft"
 			]
 		}
 	},
