@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/16-structure.sol": "Name"
+			"by-code-eater/solidity/16-structure.sol": "Stru"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"by-code-eater/solidity/16-structure.sol": {
-			"keccak256": "0xe6e98d01170c1d17c36fec59f5febdca95f0df1713d6632e34a4fafeb1043763",
+			"keccak256": "0xc4cd4e7f9ba8c971beab5358f6fb4f1032af631b7392942fee68c6abc0b7c31f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bfb3fe45731c723cf54d9263a39121f3a280ae3dccc7b32901d837059c6ce68f",
-				"dweb:/ipfs/QmfZTbkKJU18MmFV13kRvnuf87wy77Bhf5i28ikaPP3KJh"
+				"bzz-raw://8869ae60b61ffaea811e8e8d491c22592a452c246faee5c88af331ef90b430e0",
+				"dweb:/ipfs/QmYtvtQmgkwCY46xCXQQyuVdZvwHZKpewmsPH5KHwpGohK"
 			]
 		}
 	},
