@@ -8,40 +8,20 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
 					}
 				],
-				"name": "arr",
+				"name": "check",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "loop",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -58,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/13-doWhileLoop.sol": "Array"
+			"by-code-eater/solidity/14-ifElseLoop.sol": "Array"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/13-doWhileLoop.sol": {
-			"keccak256": "0x9ed90b0593543216bc0a0c4d367559e801173779e0e94b96122d9d86d7d3e84e",
+		"by-code-eater/solidity/14-ifElseLoop.sol": {
+			"keccak256": "0xf77a33cb1b24f02dba4e286290b30776b41432f0cd4a4851e2f3d1caec5f0ee6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://926473f6c1b119cfe8fde298f875d6acf022dbec2b58c7a62883b28d7023c1a3",
-				"dweb:/ipfs/Qmf6ogJfXbG6xannLaNdaqnnYZXKKD6nVq57MVAM5Q6R4x"
+				"bzz-raw://fcc6e82debb0013243f6a55d3ae6791fb8bde3f5400e02494cf673a13fda33c7",
+				"dweb:/ipfs/QmVUjuBzcGYNd8g79dvDahtBkTPS5t1zGBieDpHL4FkZtP"
 			]
 		}
 	},
