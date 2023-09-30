@@ -7,32 +7,22 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "mem",
-				"outputs": [],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sto",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "student",
+				"name": "getter",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "block_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timeStamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -52,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/20-StorageVsMemory.sol": "demo"
+			"by-code-eater/solidity/21-globalVariables.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -66,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/20-StorageVsMemory.sol": {
-			"keccak256": "0x0eaabe422b9e45aaedbd39f09a9d51c0d50b5e1c435df36cc3604b8d55037dc8",
+		"by-code-eater/solidity/21-globalVariables.sol": {
+			"keccak256": "0x2ace5803ebb16e0fd8cb41441a8b45806b8153d9300fc29756f13be521b98c5c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://12382aaf1879fb015a539f630b0f20f7b70fa4c16fa86d390bd9467e0e888c4e",
-				"dweb:/ipfs/Qmef85bnvvXBQ6gKjWK4bLpnB7s7amE3iv7ZTxQ4JDh7kv"
+				"bzz-raw://18f5e2fd723be78336b29608fe9ffae8c649b02f44dd156fb6aa9586ebae5a58",
+				"dweb:/ipfs/QmVKAKKEt5QemNfCeXmR12qJ7TiDsdq6pusjDWmTTS6dhg"
 			]
 		}
 	},

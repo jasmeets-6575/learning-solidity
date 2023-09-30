@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/21-globalVariables.sol": "Name"
+			"by-code-eater/solidity/21-globalVariables.sol": "dem"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"by-code-eater/solidity/21-globalVariables.sol": {
-			"keccak256": "0xc7a5c19b9559fe77b13f887c421a342a18be86cd7be452222ad254f4984add81",
+			"keccak256": "0x9203d26d07112e21f2e1a151c6a6b486dd6a18812d8f2a017fe56997c7ca62ac",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8a6d596c06933b929d0880ca847f91e21a86cd55c3609434ed4ebd794c11dbaf",
-				"dweb:/ipfs/QmV3w54jhUZXgTrtkjYdG3KteRGoDmUdqhVJEjEnoQ4RTY"
+				"bzz-raw://cea20d197db3a1b917d7a4371b522c4d2bc1079e1a8434ae90aa7d5b78a9e620",
+				"dweb:/ipfs/QmfDM25vJNkMH7C7JJXKddBiXCZVpU3E9X2qxSApz6feHc"
 			]
 		}
 	},
