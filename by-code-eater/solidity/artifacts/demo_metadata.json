@@ -6,6 +6,20 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "mem",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -13,43 +27,15 @@
 						"type": "uint256"
 					}
 				],
-				"name": "data",
+				"name": "student",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "",
 						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "class",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_roll",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_class",
-						"type": "uint256"
-					}
-				],
-				"name": "setter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -66,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/19-mappingStruct.sol": "demo"
+			"by-code-eater/solidity/20-StorageVsMemory.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -80,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/19-mappingStruct.sol": {
-			"keccak256": "0x9076b763bf91eaae57acf9235d3213460dd6962e22d070150557bc5d7a8431fc",
+		"by-code-eater/solidity/20-StorageVsMemory.sol": {
+			"keccak256": "0x0eaabe422b9e45aaedbd39f09a9d51c0d50b5e1c435df36cc3604b8d55037dc8",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fb16c74b8917e2ba49e78d5ab8a703a376dc62c8498765af87338715871e196d",
-				"dweb:/ipfs/QmXe9DkK4wfUv7dAC65LSjKZ41HgR29avaVESqb47mGbWw"
+				"bzz-raw://12382aaf1879fb015a539f630b0f20f7b70fa4c16fa86d390bd9467e0e888c4e",
+				"dweb:/ipfs/Qmef85bnvvXBQ6gKjWK4bLpnB7s7amE3iv7ZTxQ4JDh7kv"
 			]
 		}
 	},
