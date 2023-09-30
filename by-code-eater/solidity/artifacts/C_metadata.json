@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cx",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/23-visibility.sol": "Name"
+			"by-code-eater/solidity/23-visibility.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"by-code-eater/solidity/23-visibility.sol": {
-			"keccak256": "0xc7a5c19b9559fe77b13f887c421a342a18be86cd7be452222ad254f4984add81",
+			"keccak256": "0x520c3ed4a52af116ae431a73239407eb4c0091fd863b30d3d666d805aad73113",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8a6d596c06933b929d0880ca847f91e21a86cd55c3609434ed4ebd794c11dbaf",
-				"dweb:/ipfs/QmV3w54jhUZXgTrtkjYdG3KteRGoDmUdqhVJEjEnoQ4RTY"
+				"bzz-raw://faeb8c8d37598d1c1e838f02c8a45258a9185a6b19c1aea6edeae8b7bdd99de7",
+				"dweb:/ipfs/QmTzozEhHxD5QKG9pFZMGFbvtwRoiCz5GheMbYErVCr3yT"
 			]
 		}
 	},
