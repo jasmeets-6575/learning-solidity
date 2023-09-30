@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/21-globalVariables.sol": "Name"
+			"by-code-eater/solidity/22-contractBalance.sol": "Name"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/21-globalVariables.sol": {
+		"by-code-eater/solidity/22-contractBalance.sol": {
 			"keccak256": "0xc7a5c19b9559fe77b13f887c421a342a18be86cd7be452222ad254f4984add81",
 			"license": "GPL-3.0",
 			"urls": [
