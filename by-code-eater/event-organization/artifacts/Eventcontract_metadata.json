@@ -8,6 +8,24 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"name": "buyTicket",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
 						"name": "name",
 						"type": "string"
@@ -143,11 +161,11 @@
 	},
 	"sources": {
 		"by-code-eater/event-organization/event.sol": {
-			"keccak256": "0xffc5a74dd808440937c92edfeb4241a164c62d41884bc9988ba2529787b2ace5",
+			"keccak256": "0x1c09004591c8b0ee3d042143acb51a91b20951c96e0ef96265b3777cefa59dc6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4212110ed47d006b2681729e1ff34c6771aefd300285e81faf3ded4858f379f0",
-				"dweb:/ipfs/QmNsFJiCfXfDTd2kJ7BSNZT2ApHTyNe7WHnjh4aZ2tN7Ds"
+				"bzz-raw://e42b9c9aa82f4fb1b374377ecc8e0c3c9e68e17019c4d4efeb522cfa56c33756",
+				"dweb:/ipfs/QmeufT3v25EDPVCC2iPLY4v2VsDArR7uRSFVsbBerNuo8A"
 			]
 		}
 	},
