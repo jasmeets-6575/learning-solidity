@@ -107,6 +107,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "sendEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "target",
 				"outputs": [
 					{
@@ -147,11 +154,11 @@
 	},
 	"sources": {
 		"by-code-eater/crowd-funding-project/main.sol": {
-			"keccak256": "0x25a44ee808244d430c80c443135b1e6fae776acf727c4f0c4823664c00a37476",
+			"keccak256": "0xc85ba72e83eb020544a5bf1b4eda07d401238f0b0c284702aa6747627c9594df",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://9c4c8b46a218fb06f872b89d399abeb392589633e9df90e7ff27ea7c12fda27d",
-				"dweb:/ipfs/QmZmt4UdC5BD7bxdaVx743GjeXLAUYZt4j3ppbRBpA4i1d"
+				"bzz-raw://3420a53e57ac50ddb6fabf5d13ba757cba6d7a4b0b10c9b05878ffcbbaebc4fd",
+				"dweb:/ipfs/QmWB6mbEjpnQuhs8TnqdN5nJTNDNtsH9UJWoyU36kVvfW9"
 			]
 		}
 	},
