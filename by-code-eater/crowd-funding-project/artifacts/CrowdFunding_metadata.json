@@ -55,6 +55,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getContractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "manager",
 				"outputs": [
 					{
@@ -107,6 +120,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "refund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "sendEth",
 				"outputs": [],
 				"stateMutability": "payable",
@@ -154,11 +174,11 @@
 	},
 	"sources": {
 		"by-code-eater/crowd-funding-project/main.sol": {
-			"keccak256": "0xc85ba72e83eb020544a5bf1b4eda07d401238f0b0c284702aa6747627c9594df",
+			"keccak256": "0x216589e211cf0955b125eb10f86abd0e1a61a73e643417be87ae1eb9abb5d5d1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3420a53e57ac50ddb6fabf5d13ba757cba6d7a4b0b10c9b05878ffcbbaebc4fd",
-				"dweb:/ipfs/QmWB6mbEjpnQuhs8TnqdN5nJTNDNtsH9UJWoyU36kVvfW9"
+				"bzz-raw://f4b5a2a21dc0ec4a9207f157271fb5a4b384851b6cb85ac661bb0254acf54eb5",
+				"dweb:/ipfs/QmPWChMurYtZyrpfZCJak26XYcSbhnis7gHU5A1HTnHP3b"
 			]
 		}
 	},
