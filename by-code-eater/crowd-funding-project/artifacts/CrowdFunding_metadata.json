@@ -219,6 +219,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_requestNo",
+						"type": "uint256"
+					}
+				],
+				"name": "voteRequest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -249,11 +262,11 @@
 	},
 	"sources": {
 		"by-code-eater/crowd-funding-project/main.sol": {
-			"keccak256": "0xc39a26909d90a38fd3eeb55b3be4cb407e100beb5d21698445a71b74db3ce42c",
+			"keccak256": "0xe43bb4949f96f9108b1e25e1ad8a8a4d6d1d65d72a58a94cc4d9ed3ae4088512",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d12166d3739302be0db873c671090dac378edf42e264f56a3e6b2bbd026dfd6d",
-				"dweb:/ipfs/QmQnaE661oRc2ehwwdFxZSm5C2v8PiNqy97c3iPDY1rytn"
+				"bzz-raw://31e1c696844a9c3979e0c0a2a03aecc67036446cda7ffcb77d9ee19a35aea8bb",
+				"dweb:/ipfs/QmfKypeNvhQAYJtXh5BgpRbcBhCqXShykK3UzpQwY22FcC"
 			]
 		}
 	},
