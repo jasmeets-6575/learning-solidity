@@ -41,6 +41,29 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "createRequests",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "deadline",
 				"outputs": [
@@ -107,6 +130,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "numRequests",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "raisedAmount",
 				"outputs": [
 					{
@@ -123,6 +159,45 @@
 				"name": "refund",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "requests",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "noOfVoters",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -174,11 +249,11 @@
 	},
 	"sources": {
 		"by-code-eater/crowd-funding-project/main.sol": {
-			"keccak256": "0x216589e211cf0955b125eb10f86abd0e1a61a73e643417be87ae1eb9abb5d5d1",
+			"keccak256": "0xc39a26909d90a38fd3eeb55b3be4cb407e100beb5d21698445a71b74db3ce42c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f4b5a2a21dc0ec4a9207f157271fb5a4b384851b6cb85ac661bb0254acf54eb5",
-				"dweb:/ipfs/QmPWChMurYtZyrpfZCJak26XYcSbhnis7gHU5A1HTnHP3b"
+				"bzz-raw://d12166d3739302be0db873c671090dac378edf42e264f56a3e6b2bbd026dfd6d",
+				"dweb:/ipfs/QmQnaE661oRc2ehwwdFxZSm5C2v8PiNqy97c3iPDY1rytn"
 			]
 		}
 	},
