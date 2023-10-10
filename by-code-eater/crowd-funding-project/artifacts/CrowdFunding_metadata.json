@@ -90,6 +90,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_requestNo",
+						"type": "uint256"
+					}
+				],
+				"name": "makePayment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "manager",
 				"outputs": [
@@ -262,11 +275,11 @@
 	},
 	"sources": {
 		"by-code-eater/crowd-funding-project/main.sol": {
-			"keccak256": "0xe43bb4949f96f9108b1e25e1ad8a8a4d6d1d65d72a58a94cc4d9ed3ae4088512",
+			"keccak256": "0x3ec2cfe75c31d4547881d677293e796232d3119967722242216b993583c71cce",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://31e1c696844a9c3979e0c0a2a03aecc67036446cda7ffcb77d9ee19a35aea8bb",
-				"dweb:/ipfs/QmfKypeNvhQAYJtXh5BgpRbcBhCqXShykK3UzpQwY22FcC"
+				"bzz-raw://7c182567bdce386416c6c55177e75acda898949503f3a08acb59288e14ed02c9",
+				"dweb:/ipfs/QmXHZ53EfeSLU7qiWTgk3QrV6fKpVXFHwCUaBj47WaN9ZG"
 			]
 		}
 	},
