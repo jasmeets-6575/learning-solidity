@@ -1,31 +1,31 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.21+commit.d9974bed"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getAge",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_hey",
+						"type": "string"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_no",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "addInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getName",
+				"name": "hey",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -38,9 +38,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "setAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "no",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -57,9 +63,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/01-identity.sol": "Main"
+			"by-daulat-hussain/solidity/01-intro.sol": "MyFirstContract"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -71,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/01-identity.sol": {
-			"keccak256": "0xf0e900a3e16218253be553955304a13f7487e3f8d5eee2cb403bf6243456e53d",
-			"license": "GPL-3.0",
+		"by-daulat-hussain/solidity/01-intro.sol": {
+			"keccak256": "0x27107e0f12caaa3c90c02024a33d04f2f2befcfe0b5bd7b99ee62b0cf61d19bc",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://c171f37b38e3c9ea18c7ada58daec0d3636c9f4805c7ed9963824a23a12c9253",
-				"dweb:/ipfs/Qmar8xFjPKVzQt3Pzyr3YcBMmG5z9NDoRG4SP1a6GJcq7Y"
+				"bzz-raw://c096b811d898711735717d730a3c7cc890dcbee79bcb0662ae1942f3bf1d0122",
+				"dweb:/ipfs/QmXihzfjfGX4YmZFwmerR8yfALQ34DPRvnyBZk9nCppBFs"
 			]
 		}
 	},

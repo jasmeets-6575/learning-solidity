@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "store",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-code-eater/solidity/09-arraysFixed.sol": "local"
+			"by-code-eater/solidity/03-local-variable.sol": "local"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-code-eater/solidity/09-arraysFixed.sol": {
-			"keccak256": "0x26c89df9055fa3a6391fd454189e2bdabc13ce1d663ba0533cb45c7668c0bf84",
+		"by-code-eater/solidity/03-local-variable.sol": {
+			"keccak256": "0xb2b3a700f1f594a1a8d1f378222179c566bc946ec4da85bd94087517c92cd9b8",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://00ff74cc7af79495b99713990cd48b416189bba3c24c8ddbcd714624cdeef878",
-				"dweb:/ipfs/QmYFHgTRoNFxncm1MHBVQYJ4JViWdzfZjmWysodJkAQ7CN"
+				"bzz-raw://90e202470b8da158cacf19b40ec591ff7d8f3a3c864a92f6e1fa0fa8e4bc3084",
+				"dweb:/ipfs/QmRWXucEaBwTBx1NC8CTmzPWj8S3Hkp7n9wzXrRawNZc9z"
 			]
 		}
 	},
