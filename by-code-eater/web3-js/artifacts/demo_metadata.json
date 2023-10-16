@@ -8,37 +8,19 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_hey",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_no",
+						"name": "_x",
 						"type": "uint256"
 					}
 				],
-				"name": "addInfo",
+				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "hey",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "no",
+				"name": "x",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -63,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/01-intro.sol": "MyFirstContract"
+			"by-code-eater/web3-js/main.sol": "demo"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -77,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/01-intro.sol": {
-			"keccak256": "0x27107e0f12caaa3c90c02024a33d04f2f2befcfe0b5bd7b99ee62b0cf61d19bc",
+		"by-code-eater/web3-js/main.sol": {
+			"keccak256": "0xae21b749f946f503390fc3dd4155c23f3123c5532fc74ba111c526e0821caa8e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c096b811d898711735717d730a3c7cc890dcbee79bcb0662ae1942f3bf1d0122",
-				"dweb:/ipfs/QmXihzfjfGX4YmZFwmerR8yfALQ34DPRvnyBZk9nCppBFs"
+				"bzz-raw://5379106803cf493f096d3317de259582de653c24d1d5da81313a076cb4825be0",
+				"dweb:/ipfs/QmdGNigr1uq3JKZEHKmjoZA3GgUrpbDC1URwv4S5Qthb2a"
 			]
 		}
 	},

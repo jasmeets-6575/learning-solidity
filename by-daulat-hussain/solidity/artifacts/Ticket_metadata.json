@@ -8,37 +8,36 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_hey",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_no",
+						"name": "_ticketPrice",
 						"type": "uint256"
 					}
 				],
-				"name": "addInfo",
-				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "buyTicket",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "ticketId",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "hey",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "no",
+				"name": "getAmount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -63,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/01-intro.sol": "MyFirstContract"
+			"by-daulat-hussain/solidity/06-eventTicket.sol": "Ticket"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -77,12 +76,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/01-intro.sol": {
-			"keccak256": "0x27107e0f12caaa3c90c02024a33d04f2f2befcfe0b5bd7b99ee62b0cf61d19bc",
+		"by-daulat-hussain/solidity/06-eventTicket.sol": {
+			"keccak256": "0x2e1f2481125a417197e0bae2f6b0e1196c781a1aba808871bcdb824ba62a01bd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c096b811d898711735717d730a3c7cc890dcbee79bcb0662ae1942f3bf1d0122",
-				"dweb:/ipfs/QmXihzfjfGX4YmZFwmerR8yfALQ34DPRvnyBZk9nCppBFs"
+				"bzz-raw://fa634037458ce4ee45d278c728b5fd29e2c00979c17afe6c818ac55022321c60",
+				"dweb:/ipfs/QmcC9v3HbvKNsPCVfjUJnCzkgigNxz44Kh25nM1dLodP35"
 			]
 		}
 	},
