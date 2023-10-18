@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/15-removingArr.sol": "Name"
+			"by-daulat-hussain/solidity/15-removingArr.sol": "ArrayR"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/15-removingArr.sol": {
-			"keccak256": "0xd6f7cba7a851c5aff981fa686ed647bfa314ef82834a84b814bee0cadd1a6f29",
+			"keccak256": "0xe9303fdc17afd94717b672a811f85d5e95a88c7e17795c327d0cf432e39ecea8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://56f48dc4923d91c84f8dd19b0152bf36cfb6dd7ad9015b7ec75a6fcd5cfce2bc",
-				"dweb:/ipfs/QmcXdR2KgvrcbVQ2CBpdrbX9v4jUrTRY1oBkXvF4uhHCbr"
+				"bzz-raw://a4b1fe8d51c82f8268eb3e8ef266c06058fb1c4be52eebfd8d303fd15642f918",
+				"dweb:/ipfs/QmcywyBNLzLZggwaNT19W5MAxsoHSGremMqAz5B2iRjUTd"
 			]
 		}
 	},
