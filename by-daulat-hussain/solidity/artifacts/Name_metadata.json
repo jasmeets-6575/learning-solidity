@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/16-removeArrFromEnd.sol": "Name"
+			"by-daulat-hussain/solidity/19-functions.sol": "Name"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/16-removeArrFromEnd.sol": {
-			"keccak256": "0xd6f7cba7a851c5aff981fa686ed647bfa314ef82834a84b814bee0cadd1a6f29",
+		"by-daulat-hussain/solidity/19-functions.sol": {
+			"keccak256": "0x668e273ce0529992b1e6a88c754e3b282acb7604b78507cc6f091ce47cf19085",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://56f48dc4923d91c84f8dd19b0152bf36cfb6dd7ad9015b7ec75a6fcd5cfce2bc",
-				"dweb:/ipfs/QmcXdR2KgvrcbVQ2CBpdrbX9v4jUrTRY1oBkXvF4uhHCbr"
+				"bzz-raw://e88e26db9c66d05991bd00302ff47b5c8677336376c8862c542b59962d7888d9",
+				"dweb:/ipfs/QmahPmA8WT5berushUWA2jTGwRPKquH8uDVWV3CTZnJNMd"
 			]
 		}
 	},
