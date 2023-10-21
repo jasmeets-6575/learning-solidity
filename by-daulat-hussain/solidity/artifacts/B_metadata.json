@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "name",
+				"name": "foo",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -15,20 +15,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "text",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/12-constructore.sol": "B"
+			"by-daulat-hussain/solidity/21-Inheritance.sol": "B"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/12-constructore.sol": {
-			"keccak256": "0x198761d4c2d44173c8ed1e15c867f17ecbf742039a5ea19e0cc4a32116132928",
+		"by-daulat-hussain/solidity/21-Inheritance.sol": {
+			"keccak256": "0x0bd874d32715aa5ee40343c58d712b73233c0bae79002277568c334fdac1bf8e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9eaec03ecd627c1838011af7ba5d2900f5bb442f29b2aa9d81ce0377d50a0bc",
-				"dweb:/ipfs/QmUmCcnpob3uBDS8DUyMYx6RJfPvH26WJbAbxyJASiAudz"
+				"bzz-raw://19b0ec802fd8d9924f9990b2fdaaa022ee1dc27eb7767f2f8caadda02f33b939",
+				"dweb:/ipfs/QmNQJpvDnkYjnosb6kSuqceZLi1RUKPxzemJhZkx1yb67D"
 			]
 		}
 	},
