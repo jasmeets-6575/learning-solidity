@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/23-interface.sol": "Name"
+			"by-daulat-hussain/solidity/23-interface.sol": "Uni"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/23-interface.sol": {
-			"keccak256": "0x9b5babded693753bc30b8aa7ccc5899e919e327c2369265ba9bc7b5387c7e3e9",
+			"keccak256": "0x4e589dadff78025605c659372c9ed72dc07cceaa012e9156386f051e552c5922",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2fb2f8d6f88b852db197f97d1a2e2d4e52ac634b9b9bf56e3babdcbbb33098fc",
-				"dweb:/ipfs/QmasDoQvzVUKjs9dBB6UPNeVk3ciogN5NCjw94J53C9XKG"
+				"bzz-raw://9866a6e3ad3353cfc475e62569f9409096e5741dae015ca91e9e3859277fddc8",
+				"dweb:/ipfs/QmenRN8qutHUwsaK2cWhRpu4rGm68QATYCdm4Sy6yKBRCB"
 			]
 		}
 	},

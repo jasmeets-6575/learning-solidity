@@ -4,39 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -50,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/22-shadowingInherited.sol": "C"
+			"by-daulat-hussain/solidity/23-interface.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -64,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/22-shadowingInherited.sol": {
-			"keccak256": "0x13de4871d39af286a8ffd1a425186eaf2226eaed60836b498a2bc3f0229da225",
+		"by-daulat-hussain/solidity/23-interface.sol": {
+			"keccak256": "0x0fc4e49a0a562ca20cd078505c74c80805c32ca0ef9bccd6cd3126610eeed9f5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d45f3b8c004c78938ddfb9ffcb08a601c9bcac248798b0455a2b2cf535be9970",
-				"dweb:/ipfs/QmermN4pSuLsLKhXEvLz7UgTCau3jekDjhFSfjyYSkK9Xu"
+				"bzz-raw://87c4e22795d7310a6b068e1ea7b1662834e59553ce2b3ee2a7541fd2cbfe4f1a",
+				"dweb:/ipfs/QmZvRvMDwsysfzvLuu6Fq2qUPDn3pcSGWU7XYsYZYYFZFT"
 			]
 		}
 	},
