@@ -6,6 +6,18 @@ contract Function {
         return (1, true, 2);
     }
 
+    // Return values can be named
+    function named() public pure returns (uint x, bool b, uint y){
+        return (1, true, 2);
+    }
+
+    // Return values can be assigned to their name . 
+    function assigned() public pure returns (uint x, bool b, uint y){
+        x=1;
+        y=5;
+        b=true;    
+    }
+
     function destructuringAssignment() public pure returns(uint,bool,uint){
         (uint x, bool b, uint y) = returnMany();
         return ( x,b,y);

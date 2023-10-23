@@ -52,6 +52,29 @@
 			},
 			{
 				"inputs": [],
+				"name": "assigned",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "destructuringAssignment",
 				"outputs": [
 					{
@@ -67,6 +90,29 @@
 					{
 						"internalType": "uint256",
 						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "named",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
 						"type": "uint256"
 					}
 				],
@@ -125,11 +171,11 @@
 	},
 	"sources": {
 		"by-daulat-hussain/solidity/19-functions.sol": {
-			"keccak256": "0x0c7cea311e53332a5c0a2bf453e4749b4fcd88356d00de79f3397aa6003e30ee",
+			"keccak256": "0x3a642599c621c877433692dcc6c31c53947f95d17e7978b906c1b39112e36713",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30d78f4ed982b05fee86b2c120c6d643ca05b2648fe916672a5ed3911b1d41f8",
-				"dweb:/ipfs/QmWBerabFZ3BvdTVuEWV83i91WVyLwikQcT2QCu1n3oLJF"
+				"bzz-raw://15e170f4e96114b8e4f19321c8a5c107747a09184c1a2c5e46c1437aef0479a2",
+				"dweb:/ipfs/QmZQk5h4eqzMTf6NMtZQLwRYTLgrgMjy2NmYmiLYEzqa9j"
 			]
 		}
 	},
