@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/23-interface.sol": "Name"
+			"by-daulat-hussain/solidity/26-call.sol": "Name"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/23-interface.sol": {
-			"keccak256": "0x9b5babded693753bc30b8aa7ccc5899e919e327c2369265ba9bc7b5387c7e3e9",
+		"by-daulat-hussain/solidity/26-call.sol": {
+			"keccak256": "0x93391b12bab986389ba06d91007db8cf152c520e884c1c95adaa0bd925963078",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2fb2f8d6f88b852db197f97d1a2e2d4e52ac634b9b9bf56e3babdcbbb33098fc",
-				"dweb:/ipfs/QmasDoQvzVUKjs9dBB6UPNeVk3ciogN5NCjw94J53C9XKG"
+				"bzz-raw://1cd9a0be91d5f71c14f1193548e3a2fe35b149e8a0def711094a72d4f6cf60ca",
+				"dweb:/ipfs/QmV8VnPY2JMqm2GGJnKypCmXY8MfH9vWgwEPDHgdnyiLbi"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/23-interface.sol": "C"
+			"by-daulat-hussain/solidity/26-call.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/23-interface.sol": {
+		"by-daulat-hussain/solidity/26-call.sol": {
 			"keccak256": "0x0fc4e49a0a562ca20cd078505c74c80805c32ca0ef9bccd6cd3126610eeed9f5",
 			"license": "MIT",
 			"urls": [
