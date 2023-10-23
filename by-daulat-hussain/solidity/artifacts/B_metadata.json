@@ -7,15 +7,54 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "foo",
+				"name": "num",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/21-Inheritance.sol": "B"
+			"by-daulat-hussain/solidity/27-delegateCall.sol": "B"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/21-Inheritance.sol": {
-			"keccak256": "0x0bd874d32715aa5ee40343c58d712b73233c0bae79002277568c334fdac1bf8e",
+		"by-daulat-hussain/solidity/27-delegateCall.sol": {
+			"keccak256": "0xdc403c3e4ea110e07d631d678f19fb256564b1608c2f7a668553f0958f580056",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://19b0ec802fd8d9924f9990b2fdaaa022ee1dc27eb7767f2f8caadda02f33b939",
-				"dweb:/ipfs/QmNQJpvDnkYjnosb6kSuqceZLi1RUKPxzemJhZkx1yb67D"
+				"bzz-raw://37e1a9635f5c23f13b74c8a89a0af4e524fd2d603c2aa13f66b7bc8a2084c5d6",
+				"dweb:/ipfs/QmaZPZx94bk8npdCCYuJo87kSkBDJ8XN3iikg18ZBdAeyQ"
 			]
 		}
 	},

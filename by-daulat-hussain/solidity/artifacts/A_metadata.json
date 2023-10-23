@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getName",
+				"name": "num",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +20,43 @@
 			},
 			{
 				"inputs": [],
-				"name": "name",
+				"name": "sender",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setVars",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"by-daulat-hussain/solidity/22-shadowingInherited.sol": "A"
+			"by-daulat-hussain/solidity/27-delegateCall.sol": "A"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"by-daulat-hussain/solidity/22-shadowingInherited.sol": {
-			"keccak256": "0x13de4871d39af286a8ffd1a425186eaf2226eaed60836b498a2bc3f0229da225",
+		"by-daulat-hussain/solidity/27-delegateCall.sol": {
+			"keccak256": "0xdc403c3e4ea110e07d631d678f19fb256564b1608c2f7a668553f0958f580056",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d45f3b8c004c78938ddfb9ffcb08a601c9bcac248798b0455a2b2cf535be9970",
-				"dweb:/ipfs/QmermN4pSuLsLKhXEvLz7UgTCau3jekDjhFSfjyYSkK9Xu"
+				"bzz-raw://37e1a9635f5c23f13b74c8a89a0af4e524fd2d603c2aa13f66b7bc8a2084c5d6",
+				"dweb:/ipfs/QmaZPZx94bk8npdCCYuJo87kSkBDJ8XN3iikg18ZBdAeyQ"
 			]
 		}
 	},
