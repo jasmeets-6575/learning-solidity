@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"by-daulat-hussain/solidity/32-ABIEncode.sol": "Token"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"by-daulat-hussain/solidity/32-ABIEncode.sol": {
+			"keccak256": "0x4ec83a7a355b3acbb720c45e8ddb2f56ffcd4edb9be13d8e8dedbf17eb36f16e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://99ae73af6472561f2fac0c8305a54483d2f863681f5f2d2720b94fecca939f68",
+				"dweb:/ipfs/QmViFh77615mb4Abj2HbssLRZRkiqJDKSVAhSR4xTCHMsS"
+			]
+		}
+	},
+	"version": 1
+}
