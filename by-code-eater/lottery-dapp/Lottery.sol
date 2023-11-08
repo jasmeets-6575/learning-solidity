@@ -19,4 +19,23 @@ contract Lottery {
         require(manager== msg.sender, "You are not the manager");
         return address(this).balance;
     }
+
+    function random() internal view returns (uint) {
+        return uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, players.length)));
+    }
+
+    function pickWinner() public {
+        require(msg.sender == manager, "Only Mangaer will choose manager");
+        require(players.length >= 3 ,"Oops players are less than 3");
+
+        uint r = random();
+        uint index = r % players.length;
+        winner = players[index];
+        winner.transfer(getBalance());
+        players = new address payable[](0); 
+    }
+
+    function allPlayers() public view returns (address payable[] memory){
+        return players;
+    }
 }
