@@ -10,4 +10,14 @@ contract StorageFactory {
         SimpleStorage simpleStorageContractVariable = new SimpleStorage();
         listOfSimpleStorageContract.push(simpleStorageContractVariable);
     }
+
+    function sfStore(uint _simpleStorageIndex, uint _simpleStorageNumber) public {
+        listOfSimpleStorageContract[_simpleStorageIndex].store(
+            _simpleStorageNumber
+        );
+    }
+
+    function sfGet(uint _simpleStorageIndex) public view returns(uint) {
+        return listOfSimpleStorageContract[_simpleStorageIndex].retreive();
+    }
 }
